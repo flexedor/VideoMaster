@@ -1,0 +1,7 @@
+test="config found"
+INFO="$CWD/fils_for_script/info"
+HELP="$CWD/fils_for_script/help"
+FILE="plik nie jest wybrany"
+FOLDER_TO_CONVERT="folder nie jest wybrany"
+FINISH_FOLDER_FOR_CONVERT="$CWD/converted_files"
+format=""

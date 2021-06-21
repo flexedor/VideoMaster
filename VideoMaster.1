@@ -1,0 +1,81 @@
+.\"
+.TH VideoMaster "1" "May 2021"  "User Commands"
+.SH NAME
+VideoMaster \- video redacting tool
+.SH DESCRIPTION
+.\" Add any additional description here
+.TP
+VideoMaster launched without any arguments or inappropriate arguments will run interactive version
+.TP
+When run in non-interactive version all four arguments must be used:
+.TP
+\fB\-f\fR
+ choose new out fils directory
+.TP
+\fB\-r\fR
+information about a script
+.TP
+\fB\-h\fR
+help screen
+
+
+.SH PURPOSES OF A SCRIPT
+cutting video from HH:MM:SS  to SS where H -hour , M - min , S- sec
+time must be set in right format, for example:
+
+00:20:00
+02
+
+11:59:11
+01
+
+
+getting audio from video
+
+changing format of video
+
+Converting files from one format(avi,mpeg,3gp,mp4) to another(avi,mpeg,3gp,mp4)
+
+.SH NOTE FOR FFMMPEG
+To run a script you will first  need to type in following commands
+in order to install ffmpeg which is necessary to run a script and perform actions:
+
+Follow below instructions to install FFmpeg.
+
+Update the apt package manager using the following command:
+
+sudo apt updateCopy
+
+Now add JonathanF’s ffmpeg-4 repository to your Linux Mint system by using below command:
+
+sudo add-apt-repository ppa:jonathonf/ffmpeg-4Copy
+
+Now you are ready to install FFmpeg-4 on Linux Mint, Type following command to install FFmpeg:
+
+sudo apt install ffmpegCopy
+Confirm the installation and check FFmpeg version typing below command:
+
+ffmpeg -version
+
+
+.SH NOTE FOR ZENITY
+ You may not have Zenity
+
+Follow below instructions to install Zenity.
+
+sudo apt-get update -y
+
+sudo apt-get install -y zenity
+
+.SH AUTHOR
+Written by Fiodar Litskevich.
+.SH "BUGS"
+You can find all bugs in fils_for_script/error.txt
+.SH COPYRIGHT
+Copyright \ 2021 Fiodar Litskevich
+.br
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+.SH "SEE ALSO"
+My github <https://github.com/flexedor>
+.br

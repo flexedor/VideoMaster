@@ -1,0 +1,12 @@
+
+Program launched without any arguments or inappropriate arguments
+will run interactive version
+
+
+When run in non-interactive version all four arguments must be used:
+
+
+-f,  		   choose new out fils directory 
+-r,       		information about a script
+-h,				help screen
+
